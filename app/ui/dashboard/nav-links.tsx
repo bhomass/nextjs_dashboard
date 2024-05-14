@@ -3,6 +3,7 @@
 import {
   UserGroupIcon,
   HomeIcon,
+  DocumentIcon,
   DocumentDuplicateIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
@@ -12,6 +13,7 @@ import clsx from 'clsx';
 // Depending on the size of the application, this would be stored in a database.
 const links = [
   { name: 'Home', href: '/dashboard/home', icon: HomeIcon },
+  { name: 'NCT', href: '/dashboard/nct_panel', icon:   DocumentIcon},
   { name: 'Dashboard', href: '/dashboard', icon: HomeIcon },
   {
     name: 'Invoices',
